@@ -1,0 +1,36 @@
+Algoritmo "Procedimento"
+//
+//
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 13/9/2021
+Var
+// Seção de Declarações das variáveis
+  I: inteiro
+  N, Pesado:caractere
+  p, Mai: Real
+  procedimento Topo()
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ Escreval("---------------------------------------")
+ Escreval("   D E T E C T O R  D E  P E S A D O   ")
+ ESCREVAL(" MAIOR PESO ATE AGORA: ", MAI, "KG")
+ Escreval("---------------------------------------")
+ Fimprocedimento
+ Inicio
+ Topo()
+ para I <- 1 ate 5 faca
+ Escreval("digite o nome: ")
+ Leia (N)
+ Escreval("Digite o peso ", N, ": ")
+ Leia (P)
+ Se (p>Mai) entao
+ Mai <- P
+ Pesado <- N
+ FimSe
+ Topo()
+FimPara
+ Topo()
+Escreval("pessoa mais pesada foi :", pesado, ", com ",Mai, "quilos.")
+Fimalgoritmo
